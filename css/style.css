@@ -1,13 +1,13 @@
 @font-face { 
-  font-family: Jenna Sue; 
-    src: url('../fonts/JennaSue-webfont.eot'); 
-    src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
+  font-family: Calibri; 
+    #src: url('../fonts/JennaSue-webfont.eot'); 
+    #src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
 } 
 
 @font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
+  font-family: Calibri; 
+    #src: url('../fonts/NewsCycle-Regular.eot'); 
+    #src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
 } 
 
 html { 
@@ -32,10 +32,10 @@ body {
 }
 
 p { 
-  font: normal 2.1em "Calibri", arial, sans-serif;
+  font: normal 1.1em "Calibri", arial, sans-serif;
   padding: 0 0 20px 0;
   line-height: 1.5em;
-  text-shadow: #DDD 1px 1px ;
+  #text-shadow: #DDD 1px 1px ;
 }
 
 img { 
@@ -43,32 +43,32 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 { 
-  font: normal 400% 'Jenna Sue', arial, sans-serif;
-  color: #3E9C6A;
+  font: normal 200% 'Calibri', arial, sans-serif;
+  color: #FF8633;
   margin: 0 0 15px 0;
   padding: 15px 0 5px 0;
 }
 
 h1 { 
-  text-shadow: 1px 1px #000;
+  #text-shadow: 1px 1px #000;
 }
 
 h2 { 
-  font: normal 280% 'Jenna Sue', arial, sans-serif;
+  font: normal 280% 'Calibri', arial, sans-serif;
   margin: 0;
   padding: 0 0 8px 0;
-  text-shadow: 1px 1px #000;
+  #text-shadow: 1px 1px #000;
 }
 
 h3 { 
-  font: normal 125% 'trebuchet ms', arial, sans-serif;
+  font: normal 'Calibri', arial, sans-serif;
 }
 
 h4, h5, h6 { 
   margin: 0;
   padding: 0 0 5px 0;
   font: normal 110% arial, sans-serif;
-  line-height: 1.5em;
+  line-height: 1em;
   color: #000;
 }
 
@@ -157,12 +157,12 @@ header {
   font: normal 440% 'Jenna Sue', arial, sans-serif;
   padding: 60px 0 0 0;
   color: #000;
-  text-shadow: #FFF 1px 1px;
+  #text-shadow: #FFF 1px 1px;
   letter-spacing: -2px;
 }
 
 #logo h1 a { 
-  color: #3E9C6A;
+  color: #FFBB33;
   text-decoration: none;
 }
 
@@ -189,8 +189,8 @@ header {
 }
 
 .strapline h2 {
-   font-size: 400%;
-   text-shadow: #FFF 1px 1px;
+   font-size: 300%;
+   #text-shadow: #FFF 1px 1px;
 }
 
 #site_content { 
@@ -223,8 +223,8 @@ header {
   
 .sidebar h3 { 
   padding: 0 15px 0px 0;
-  font: 400% 'Jenna Sue', arial, sans-serif;
-  text-shadow:  #000 1px 1px;
+  font: 200% 'Calibri', arial, sans-serif;
+  #text-shadow:  #000 1px 1px;
   margin: 0 1px;
 }
 
@@ -320,7 +320,7 @@ footer a:hover {
   background: -moz-linear-gradient(#ABDFC3, #3E9C6A);
   background: -o-linear-gradient(#ABDFC3, #3E9C6A);
   background: -webkit-linear-gradient(#ABDFC3, #3E9C6A);
-  text-shadow: 1px 1px #000;
+  #text-shadow: 1px 1px #000;
   color: #FFF;
   line-height: 15px;
 }
@@ -414,7 +414,7 @@ ul img {
   padding: 0;
   font: normal 100% 'News Cycle', arial, sans-serif;
   color: #FFF;
-  text-shadow: none;}
+  #text-shadow: none;}
 
 nav { 
   height: 80px;
@@ -455,8 +455,8 @@ nav {
 }
 
 .lavaLampWithImage li a {
-  font: normal 100% 'News Cycle', sans-serif;
-  text-shadow: none;
+  font: normal 100% 'Calibri', sans-serif;
+  #text-shadow: none;
   text-decoration: none;
   color: #000;
   outline: none;
