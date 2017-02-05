@@ -28,9 +28,11 @@
           </ul>
         </nav>
       </header>
+      <!--
       <div style="vertical-align:middle; text-align:center">
         <img width="550" height="250" src="images/1.jpg" alt="&quot;Skill building: Impactful Communication, Influencing, Networking, People Development &quot;" />
 	  </div>	
+	  -->
 	  <div class="strapline_container">	  
         <div class="strapline">
       <h2>Passionate about growth</h2>
@@ -40,7 +42,8 @@
 	
     <div id="site_content">
       <div id="content">
-        <h1>Contact</h1>
+        <h1>Contact Us</h1>
+        <h4>(we aim to answer your query within 72 hours)</h4> <br/><br/><br/>
         <?php
           // Set-up these 3 parameters
           // 1. Enter the email address you would like the enquiry sent to
